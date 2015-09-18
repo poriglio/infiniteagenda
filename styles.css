@@ -1,3 +1,76 @@
+/*BASE COLORS: lavender and midnightblue*/
+
 body{
-	background-color: lemonchiffon;
+	background-color: #30307E;
+	color: #12124E;
+	font-size: 24px;
+	font-family: "arial narrow", sans-serif;
+	background-image: linear-gradient(
+		to right, #30307E, #7575A9, #30307E);
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+.fixedHeader *{
+	width: 100%;
+	text-align: center;
+	color: #CFCFE1;
+	padding: 0.5rem;
+}
+
+.fixedHeader{
+	background-image: linear-gradient(
+		to right, #0A0A2D, midnightblue, #0A0A2D);
+}
+
+.fixedHeader a{
+	color: #CFCFE1;
+	text-decoration: none;
+}
+
+.scrollingDates{
+	position: relative;
+	text-align: center;
+}
+
+.singleDate{
+	display: inline-block;
+	width: 100%;
+	max-width: 800px;
+	text-align: left;
+	margin-top: 1.5rem;
+}
+
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	padding: 0.5rem;
+}
+
+.date{	
+	border: 3px solid midnightblue;
+	border-right: none;
+	width: 20rem;
+	text-align: right;
+	background-image: linear-gradient(
+		to right, #47478D, #8C8CB8);
+}
+
+.appointment{
+	border: 3px solid #47478D;
+	width: 75%;
+	border-left: none;
+	background-image: linear-gradient(
+	to right, #E6E6FA, #7575A9);
+}
+
+.box-shadow{
+	box-shadow: 6px 6px 16px 0px black;
 }
